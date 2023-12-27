@@ -9,6 +9,8 @@ public class Test1 extends BaseTest {
 
     @Test
     public void testCase1() {
+    	System.out.println("TestCase 1 started");
+    	
         // Test steps
         LoginPage loginPage = new LoginPage(driver);
         loginPage.enterUsername("yourUsername");
