@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-27T13:23:36 IST" name="Default suite" finished-at="2023-12-27T13:23:52 IST" duration-ms="16045">
+    <groups>
+    </groups>
+    <test started-at="2023-12-27T13:23:36 IST" name="Default test" finished-at="2023-12-27T13:23:52 IST" duration-ms="16045">
+      <class name="com.dddemo.tests.VerifyLoginPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dddemo.tests.VerifyLoginPage@47987356]" started-at="2023-12-27T13:23:36 IST" name="setUp" finished-at="2023-12-27T13:23:42 IST" duration-ms="6816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginFailed()[pri:0, instance:com.dddemo.tests.VerifyLoginPage@47987356]" started-at="2023-12-27T13:23:42 IST" name="LoginFailed" finished-at="2023-12-27T13:23:43 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFailed -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dddemo.tests.VerifyLoginPage@47987356]" started-at="2023-12-27T13:23:43 IST" name="tearDown" finished-at="2023-12-27T13:23:43 IST" duration-ms="832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginFailed status=SUCCESS method=VerifyLoginPage.LoginFailed()[pri:0, instance:com.dddemo.tests.VerifyLoginPage@47987356] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dddemo.tests.VerifyLoginPage@47987356]" started-at="2023-12-27T13:23:43 IST" name="setUp" finished-at="2023-12-27T13:23:47 IST" duration-ms="3877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyValidLoginTest()[pri:0, instance:com.dddemo.tests.VerifyLoginPage@47987356]" started-at="2023-12-27T13:23:47 IST" name="verifyValidLoginTest" finished-at="2023-12-27T13:23:51 IST" duration-ms="3609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLoginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dddemo.tests.VerifyLoginPage@47987356]" started-at="2023-12-27T13:23:51 IST" name="tearDown" finished-at="2023-12-27T13:23:52 IST" duration-ms="731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidLoginTest status=SUCCESS method=VerifyLoginPage.verifyValidLoginTest()[pri:0, instance:com.dddemo.tests.VerifyLoginPage@47987356] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dddemo.tests.VerifyLoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
